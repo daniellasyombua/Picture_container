@@ -46,7 +46,8 @@ margin-left: 2cm;
 {
     font-family:serif;
     font-weight: 540;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
 }
 #image
 {
