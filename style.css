@@ -1,0 +1,183 @@
+.con_body
+{
+    background-color: beige;
+}
+.account
+{
+    width: 35%;
+margin-left: 3cm;
+border-left: 1px solid rgb(185, 15, 185) ;
+padding-left: 1cm;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+display: flex;
+padding-left: 8cm;
+padding-top: 2cm;
+margin-left: 2cm;
+
+}
+
+.picture
+{
+    margin-top: cm;
+}
+
+#signinlink
+{
+    color: rgb(118, 42, 189);
+    text-decoration: none;
+    font-weight: bolder;
+}
+#picheading
+{
+    color: rgb(168, 6, 168);
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#formheading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#signheading
+{
+    font-family:serif;
+    font-weight: 540;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#image
+{
+    
+    height: 70%;
+   
+}
+#fname
+{
+    width: 6.2cm;
+    height: 0.9cm;
+}
+#lstname
+{
+    margin-left: 5.3cm;
+}
+#lname
+{
+    width: 6.2cm;
+    height: 0.9cm;
+    margin-left: 1cm;
+}
+#email
+{
+    height: 0.9cm;
+    width: 98%;
+}
+#pswd
+{   height: 0.9cm;
+    width: 98%;
+    
+}
+#cpswd
+{
+    height: 0.9cm;
+    width: 98%;
+}
+#signin_button
+{
+    height: 1.3cm;
+    width: 100%;
+    background-color: rgb(161, 10, 161);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 100%;
+}
+#sec
+{
+    text-align: center;
+}
+
+#linetext
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5cm;
+    font-size: larger;
+    
+    
+}
+#linetext:before,
+#linetext:after
+{
+content:"";
+flex: 1 1;
+border-bottom: 1px solid black;
+opacity: 20%;
+margin: auto;
+
+
+}
+.farfa-eye{
+margin-left: 1cm;
+}
+#apple
+{
+    color: black;
+}
+#google
+{
+
+width: 2cm;
+background-color: rgb(236, 247, 247);
+
+}
+
+#apple
+{
+margin-left: 3.5cm;
+width: 2cm;
+text-align: center;
+background-color: rgb(236, 247, 247);
+}
+#facebook
+{
+    color: rgba(34, 34, 236, 0.781);
+    margin-left: 3cm;
+    width: 2cm;
+    text-align: center;
+    background-color: rgb(236, 247, 247);
+}
+
+.icons
+{
+    display: flex;
+    width: 10px;
+    margin-left: 1.5cm;
+    
+}
+
+#pswd::-ms-reveal,
+#pswd::-ms-clear {
+        display: none;
+    }
+#pswd::-ms-reveal,
+#pswd::-ms-clear {
+        display: none;
+    }
+
+#eyepswd
+{
+    position: absolute;
+    right: 360px;
+    top: 454px;
+
+}
+
+#eyecpswd
+{
+    position: absolute;
+    right: 360px;
+    top: 565px;
+}
